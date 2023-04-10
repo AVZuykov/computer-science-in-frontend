@@ -15,4 +15,5 @@
 
 # tools
 .vscode
+.eslintcache
 *:Zone.Identifier
