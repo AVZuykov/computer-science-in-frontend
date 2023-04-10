@@ -5,8 +5,8 @@
     "repository": "https://github.com/AVZuykov/computer-science-in-frontend",
     "scripts": {
         "start": "tsc-watch --onSuccess 'node ./build/index.js'",
-        "lint": "next lint",
-        "lint:fix": "eslint --cache . --fix",
+        "lint": "eslint 'src/**/*.ts'",
+        "lint:fix": "eslint --cache 'src/**/*.ts' --fix",
         "format": "prettier -ul 'src/**/*'",
         "format:fix": "prettier -uw  'src/**/*'",
         "test": "jest",
