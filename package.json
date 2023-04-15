@@ -1,36 +1,42 @@
 {
-    "name": "homeworks",
-    "version": "1.0.0",
-    "description": "",
-    "repository": "https://github.com/AVZuykov/computer-science-in-frontend",
-    "scripts": {
-        "start": "tsc-watch --onSuccess 'node ./build/index.js'",
-        "lint": "eslint 'src/**/*.ts'",
-        "lint:fix": "eslint --cache 'src/**/*.ts' --fix",
-        "format": "prettier -ul 'src/**/*'",
-        "format:fix": "prettier -uw  'src/**/*'",
-        "test": "jest",
-        "prepare": "husky install"
-    },
-    "lint-staged": {
-        "*": "prettier -u --write",
-        "*.ts": "eslint --fix"
-    },
-    "author": "AVZuykov",
-    "license": "ISC",
-    "devDependencies": {
-        "@types/jest": "^29.5.0",
-        "@typescript-eslint/eslint-plugin": "^5.58.0",
-        "@typescript-eslint/parser": "^5.58.0",
-        "eslint": "^8.38.0",
-        "eslint-config-prettier": "^8.8.0",
-        "eslint-plugin-prettier": "^4.2.1",
-        "eslint-plugin-simple-import-sort": "^10.0.0",
-        "husky": "^8.0.3",
-        "jest": "^29.5.0",
-        "lint-staged": "^13.2.1",
-        "ts-jest": "^29.1.0",
-        "typescript": "^5.0.4",
-        "tsc-watch": "^6.0.0"
-    }
+  "name": "homeworks",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "https://github.com/AVZuykov/computer-science-in-frontend",
+  "scripts": {
+    "start": "tsc-watch --onSuccess 'node ./build/index.js'",
+    "lint": "eslint 'src/**/*.ts'",
+    "lint:fix": "eslint --cache 'src/**/*.ts' --fix",
+    "format": "prettier -ul 'src/**/*'",
+    "format:fix": "prettier -uw  'src/**/*'",
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*": "prettier -u --write",
+    "*.ts": "eslint --fix"
+  },
+  "author": "AVZuykov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "husky": "^8.0.3",
+    "jest": "^29.5.0",
+    "lint-staged": "^13.2.1",
+    "ts-jest": "^29.1.0",
+    "tsc-watch": "^6.0.0",
+    "typescript": "^5.0.4",
+    "webpack-cli": "^4.10.0",
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.74.0",
+    "webpack-dev-server": "^4.10.0"
+  }
 }

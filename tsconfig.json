@@ -1,20 +1,20 @@
 {
-    "compilerOptions": {
-        "module": "CommonJS",
-        "moduleResolution": "node",
-        "target": "ES2020",
-        "isolatedModules": true,
-        "resolveJsonModule": true,
-        "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true,
-        "strict": true,
-        "rootDir": "./src",
-        "outDir": "build",
-        "paths": {
-            "@/*": ["./src/*"],
-            "@homework-1/*": ["./src/homework-1/*"]
-        }
-    },
-    "include": ["src"],
-    "exclude": ["node_modules", "**/node_modules/*", "src/**/*.test.*"]
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "target": "ES2020",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "rootDir": "./src",
+    "outDir": "build",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@homework-1/*": ["./src/homework-1/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/node_modules/*", "src/**/*.test.*"]
 }
