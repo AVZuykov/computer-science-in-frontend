@@ -6,7 +6,13 @@
     "allowJs": false,
     "strict": true,
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pages": ["pages"],
+      "@/*": ["src/*"]
+    }
   },
   "ts-node": {
     "compilerOptions": {
