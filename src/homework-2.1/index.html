@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas bit changer</title>
+  </head>
+  <body>
+    <div class="controls">
+      <label>
+        <span>input image</span>
+        <input type="file" name="image" accept="image/png, image/jpeg" />
+      </label>
+
+      <button class="grayscale">Оттенки серого</button>
+      <button class="inverse">Инверсия</button>
+      <button class="green">Зеленый</button>
+      <button class="black-white">ЧБ</button>
+    </div>
+
+    <div class="images">
+      <canvas class="original"> </canvas>
+      <canvas class="changed"> </canvas>
+    </div>
+  </body>
+</html>

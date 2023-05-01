@@ -14,7 +14,7 @@
   "plugins": ["@typescript-eslint", "simple-import-sort", "prettier"],
   "rules": {
     "import/order": "off", // Conflicts with simple-import-sort
-
+    "@typescript-eslint/no-non-null-assertion": "off",
     "simple-import-sort/imports": [
       "error",
       {
